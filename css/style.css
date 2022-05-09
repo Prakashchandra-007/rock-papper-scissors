@@ -1,0 +1,103 @@
+
+.wrapper{
+    height:100vh;
+    width:100%;
+    min-width: 500px;
+    margin:0 auto;
+    /* background-color: aquamarine; */
+}
+.container{
+    margin:4% auto;
+    height:80%;
+    width:50%;
+    
+}
+.container .main{
+    height:100%;
+    width:100%;
+    display:grid;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:20% 40% 40%;
+    background-color:green;
+    grid-column:1/2;
+}
+.header{
+    background-color:rgb(0, 0, 0);
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: underline;
+    color: white
+}
+.choose{
+    background-color:yellow;
+    border: 1px solid white;
+    text-align: center;
+}
+.score{
+    background-color:blue; 
+     grid-column-start: 1;
+    grid-column-end: 3;
+    border: 1px solid white;
+    text-align: center;
+}
+.oparation{
+    text-align: center;
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+.oparation .keys{
+    display:flex;
+    justify-content: space-evenly;
+    margin:5%;
+    /* background-color:chocolate; */
+    
+}
+.keys button{
+    background-color:rgb(0, 0, 0);
+    padding:5px;
+    font-size: 100%;;
+    font-weight: bold;  
+    color:white;
+    width: 30%;
+}
+.keys button:hover{
+    cursor: pointer;
+    background-color:rgb(17, 15, 15);
+}
+.start input[type="number"] {
+    width: 20%;
+    height:20%;
+    font-size:100%;
+    font-weight: bold;
+    text-align: center;
+}
+.start input[type="button"] {
+    width: 30%;
+    height:20%;
+    font-size:200%;
+    font-weight: bold;
+}
+.start input[type="button"]:hover {
+    cursor: pointer;
+    background-color:black;
+    color:white;
+}
+
+#leftRound{
+    
+    height: 40px;
+    border: 4px solid red;
+    border-radius: 50%;
+    z-index: 99;
+    background-color: rgb(31, 16, 16);
+    height: 100px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 122%;
+    left: 5%;
+    font-size: 5em;
+    overflow: hidden;
+}

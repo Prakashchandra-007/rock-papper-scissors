@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Game</title>
     <link rel="stylesheet" href="./css/style.css">
    
 </head>
@@ -14,8 +14,8 @@
             <div class="main">
                 <div class="header"><h1>Computer</h1></div>
                 <div class="header"><h1>Player</h1></div>
-                <div class="choose"><h1>Score :</h1><h1 id="score1">0</h1><h1 id="compChoose">Rock</h1></div>
-                <div class="choose"><h1>Score :</h1><h1 id="score2">0</h1><h1 id="userChoose">Papper</h1></div>
+                <div class="choose"><h1>Score :</h1><h1 id="score1">0</h1><h1 id="compChoose">-</h1></div>
+                <div class="choose"><h1>Score :</h1><h1 id="score2">0</h1><h1 id="userChoose">-</h1></div>
                 <div class="oparation">
                     <div class="keys">
                         <button id="rockBtn" value="rock">Rock</button>
@@ -23,9 +23,10 @@
                         <button id="scissorBtn" value="scissor">scissor</button>
                     </div>
                     <div class="start"><input type="number" placeholder="Enter rounds" name="rounds" id="n-rounds"></br><input type="button" id="startBtn" value="Start"></div>
+                    <div id="leftRound">0</div>  
                 </div>
-                   
-                <div id="leftRound">0</div>
+                
+                
             </div>
 
         </div>

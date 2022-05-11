@@ -101,3 +101,28 @@
     font-size: 5em;
     overflow: hidden;
 }
+.modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height:100%;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.445);
+    text-align: center; 
+    color:rgb(37, 0, 0);
+    
+}
+.modal .modalBox{
+    margin:15% auto;
+    text-align: center;
+    height:40%;
+    width:50%;
+    background-color:#cce752 ;
+    border:1px solid red;
+    border-end-end-radius: 50px;
+    
+}
+.modal .modalBox h1{
+    margin-top: 10%;
+}
